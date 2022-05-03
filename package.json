@@ -1,0 +1,22 @@
+{
+  "name": "loopwatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./dev.css -o ./index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cevherkarakoc/loopwatch.git"
+  },
+  "author": "cevherkarakoc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cevherkarakoc/loopwatch/issues"
+  },
+  "homepage": "https://github.com/cevherkarakoc/loopwatch#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

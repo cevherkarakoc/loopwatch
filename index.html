@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#e5e7eb" />
+    
+    <title>Loopwatch</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+  </head>
+  <body class="w-screen h-screen font-sans bg-gray-200 text-black dark:bg-black dark:text-slate-200 transition-all duration-500">
+    <div class="flex flex-col items-center justify-around w-full h-full">
+      <button id="btn-theme" class="font-bold border-slate-500 border-2 rounded py-2 px-8 uppercase">Light</button>
+      <input id="time" type="number" class="bg-transparent w-full text-center text-9xl font-bold appearance-none" maxlength="3" inputmode="numeric" value="15" />
+      <div class="w-full flex flex-col items-center gap-4">
+        <h2 id="count" class="text-7xl">0</h1>
+        <button id="btn-start" class="text-xl font-bold border-b-2 border-slate-500 px-4 py-px uppercase">Start</button>
+      </div>
+    </div>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
