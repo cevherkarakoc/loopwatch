@@ -2,4 +2,4 @@
 
 A timer with repeating feature
 
-To use : https://cevherkarakoc.github.io/loopwatch
+To use : https://loopwatch.ceveka.com/
